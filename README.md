@@ -157,7 +157,7 @@ it('Debe mostrar error cuando la contraseña es incorrecta', () => {
 
 ---
 
-### Test 4: Campos Vacíos ⚠️
+### Test 4: Campos Vacíos 
 **Archivo:** `04-campos-vacios.cy.js` 
 
 ```js
@@ -178,7 +178,7 @@ it('Debe mostrar error cuando ambos campos están vacíos', () => {
 
 ---
 
-### Test 5: Validación de Longitud ⚠️
+### Test 5: Validación de Longitud 
 **Archivo:** `05-validacion-longitud.cy.js` 
 
 ```js
@@ -226,28 +226,25 @@ cy.login('admin', 'password123')
 
 ```
   Test Case 1: Login Exitoso
-    ✓ Debe permitir login exitoso (1250ms)
+  Debe permitir login exitoso 
 
   Test Case 2: Login Fallido - Usuario Incorrecto
-    ✓ Debe mostrar error cuando el usuario es incorrecto (185ms)
+  Debe mostrar error cuando el usuario es incorrecto 
 
   Test Case 3: Login Fallido - Contraseña Incorrecta
-    ✓ Debe mostrar error cuando la contraseña es incorrecta (180ms)
+  Debe mostrar error cuando la contraseña es incorrecta 
 
   Test Case 4: Validación de Campos Vacíos
-    ✓ Debe mostrar error cuando ambos campos están vacíos (125ms)
-    ✓ Debe mostrar error cuando solo se llena el usuario (120ms)
-    ✓ Debe mostrar error cuando solo se llena la contraseña (118ms)
+  Debe mostrar error cuando ambos campos están vacíos 
+  Debe mostrar error cuando solo se llena el usuario 
+  Debe mostrar error cuando solo se llena la contraseña (
 
   Test Case 5: Validación de Longitud Mínima
-    ✓ Debe mostrar error cuando el usuario tiene menos de 3 caracteres (145ms)
-    ✓ Debe mostrar error cuando la contraseña tiene menos de 6 caracteres (142ms)
+  Debe mostrar error cuando el usuario tiene menos de 3 caracteres 
+  Debe mostrar error cuando la contraseña tiene menos de 6 caracteres 
 
   8 passing (3s)
 ```
-
-**Total:** 5 archivos | 8 tests
-
 
 ## Tecnologías
 
