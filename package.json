@@ -1,0 +1,19 @@
+{
+  "name": "cypresshw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server app -p 8080",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^15.4.0",
+    "http-server": "^14.1.1"
+  }
+}
