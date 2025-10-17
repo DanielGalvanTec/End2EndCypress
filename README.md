@@ -222,6 +222,10 @@ cy.login('admin', 'password123')
 
 ---
 
+##Videos
+```
+En la carpeta cypress/videos
+```
 ## Resultados Esperados
 
 ```
